@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="firebase_url">[YOUR_FIREBASE_URL]</string>
+        <!--Your Google Place API from your developers.google.com setting. Take a look on https://developers.google.com/places/android-api/-->
+        <string name="google_place_api_key" translatable="false">[YOUR_GOOGLE_PLACE_API_KEY]</string>
+
+        <!-- Your Google Banner Id from your admob setting. Take a look on https://firebase.google.com/docs/admob/android/quick-start -->
+        <string name="admob_app_id" translatable="false">[YOUR_GOOGLE_ADMOB_APP_ID]</string>
+        <string name="about_banner_ad_unit_id" translatable="false">[YOUR_GOOGLE_ADMOB_UNIT_ID]</string>
+        <string name="profile_banner_ad_unit_id" translatable="false">[YOUR_GOOGLE_ADMOB_UNIT_ID]</string>
+
+        <!--Your Google Place API from your developers.facebook.com setting. Take a look on https://developers.facebook.com/apps/{your_app_id}/dashboard/-->
+        <string name="facebook_app_id">[YOUR_FACEBOOK_APP_ID]</string>
+        <string name="fb_login_protocol_scheme">[YOUR_FACEBOOK_LOGIN_PROTOCOL_SCHEME]</string>
+
+</resources>

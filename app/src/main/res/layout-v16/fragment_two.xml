@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/intro_layout_padding"
+    android:background="@drawable/app_main_screen"
+    android:orientation="vertical"
+    tools:context="com.dananaka.chatsome.app_intro.TwoFragment">
+
+    <!-- TODO: Update blank fragment layout Two-->
+    <ImageView
+        android:id="@+id/logo2img"
+        android:layout_width="@dimen/logo_dimen_md"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_firebase"
+        android:contentDescription="@string/logo_image_desc"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_two_text"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:paddingTop="@dimen/slug_padding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_two_text1"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/intro_layout_padding"
+    android:background="@drawable/app_main_screen"
+    tools:context="com.dananaka.chatsome.app_intro.OneFragment"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout One-->
+    <ImageView
+        android:id="@+id/logo1img"
+        android:layout_width="@dimen/logo_dimen_md"
+        android:layout_height="@dimen/logo_dimen_md"
+        android:src="@drawable/ic_chat"
+        android:contentDescription="@string/logo_image_desc"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/app_intro_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:paddingTop="@dimen/slug_padding" />
+
+    <TextView
+        android:id="@+id/app_intro_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_version"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

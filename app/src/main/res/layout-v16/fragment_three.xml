@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/intro_layout_padding"
+    android:background="@drawable/app_main_screen"
+    android:orientation="vertical"
+    tools:context="com.dananaka.chatsome.app_intro.ThreeFragment">
+
+    <!-- TODO: Update blank fragment layout Three-->
+    <ImageView
+        android:id="@+id/logo3img"
+        android:layout_width="@dimen/logo_dimen_md"
+        android:layout_height="@dimen/logo_dimen_md"
+        android:src="@drawable/ic_cloud"
+        android:contentDescription="@string/logo_image_desc"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_three_text"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:paddingTop="@dimen/slug_padding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_three_text1"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

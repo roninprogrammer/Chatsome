@@ -1,0 +1,177 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AwesomeChat</string>
+    <string name="app_slug">Develop with Firebase service</string>
+    <string name="app_version">Ver. 3.0.4</string>
+    <string name="filter_title_awesomeChat">Real Time Chat Application</string>
+    <!-- Application inner text -->
+    <string name="intro_two_text">Firebase</string>
+    <string name="intro_two_text1">Realtime database</string>
+    <string name="intro_three_text">Reduce friction with</string>
+    <string name="intro_three_text1">Robust authentication</string>
+    <string name="spalsh_image_desc">Splash icon</string>
+    <string name="logo_image_desc">Awesome chat intro logo</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_or">Or</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="desc_app_icon">Awesome Fire Chat logo</string>
+    <string name="emailpassword_status_fmt">Email User: %s</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_image"> Tab icon to deffer tabs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- activity_login -->
+    <string name="login.title" tools:ignore="ExtraTranslation">Login Now</string>
+    <string name="login.hint.email" tools:ignore="ExtraTranslation">Email</string>
+    <string name="login.hint.password" tools:ignore="ExtraTranslation">Password</string>
+    <string name="login.button.login" tools:ignore="ExtraTranslation">Log in</string>
+    <string name="login.button.forgot" tools:ignore="ExtraTranslation">Forgot password?</string>
+    <string name="login.orText" tools:ignore="ExtraTranslation"> --- OR --- </string>
+    <string name="login.button.register" tools:ignore="ExtraTranslation">Register</string>
+    <string name="login.dialog.forgot.title" tools:ignore="ExtraTranslation">Type your email address</string>
+    <string name="login.dialog.forgot.ok" tools:ignore="ExtraTranslation">OK</string>
+    <string name="login.dialog.forgot.close" tools:ignore="ExtraTranslation">Close</string>
+    <string name="login.snackbar.password.short" tools:ignore="ExtraTranslation">Password cannot be empty</string>
+    <string name="login.snackbar.email.error" tools:ignore="ExtraTranslation">Email is not valid</string>
+    <string name="login.snackbar.email.short" tools:ignore="ExtraTranslation">Email cannot be empty</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <!-- activity registration -->
+    <string name="registration.title" tools:ignore="ExtraTranslation">Registration</string>
+    <string name="registration.hint.email" tools:ignore="ExtraTranslation">Email</string>
+    <string name="registration.hint.confirm" tools:ignore="ExtraTranslation">Confirm Password</string>
+    <string name="registration.button.register" tools:ignore="ExtraTranslation">Register</string>
+    <string name="registration.text.login" tools:ignore="ExtraTranslation">Already have an user?</string>
+    <string name="registration.button.login" tools:ignore="ExtraTranslation">Login Now</string>
+    <string name="registration.dialog.title" tools:ignore="ExtraTranslation">Welcome</string>
+    <string name="registration.dialog.text" tools:ignore="ExtraTranslation">Verify your email by clicking the link we sent you to your inbox</string>
+    <string name="registration.dialog.positive" tools:ignore="ExtraTranslation">Close</string>
+    <string name="registration.snackbar.password.short" tools:ignore="ExtraTranslation">Password must be longer than 8 character</string>
+    <string name="registration.snackbar.password.error" tools:ignore="ExtraTranslation">Password doesn\'t match</string>
+    <string name="registration.snackbar.email.short" tools:ignore="ExtraTranslation">Email cannot be empty</string>
+    <string name="registration.snackbar.email.error" tools:ignore="ExtraTranslation">Email is not valid</string>
+
+
+    <!-- activity main -->
+    <string name="main.invite.title" tools:ignore="ExtraTranslation">Invite</string>
+    <string name="main.invite.message" tools:ignore="ExtraTranslation">Join me to ChatSome</string>
+    <string name="main.invite.cta"  tools:ignore="ExtraTranslation">Call to Action</string>
+    <string name="main.toast.logout.message" tools:ignore="ExtraTranslation">Logged out</string>
+    <string name="main.toast.exit.message" tools:ignore="ExtraTranslation">Please click BACK again to exit</string>
+    <string name="main.dialog.text.wait" tools:ignore="ExtraTranslation">Please wait upgrading the database for the first launch</string>
+
+    <string name="main.toolbar.menu.search" tools:ignore="ExtraTranslation">Search</string>
+
+    <!-- activity first login -->
+    <string name="firstlogin.title" tools:ignore="ExtraTranslation">Profile</string>
+    <string name="firstLogin.button.next" tools:ignore="ExtraTranslation">Start</string>
+
+    <!-- Navigation Drawer -->
+    <string name="drawer.conversation" tools:ignore="ExtraTranslation">Chats</string>
+    <string name="drawer.user" tools:ignore="ExtraTranslation">Contacts</string>
+    <string name="drawer.about" tools:ignore="ExtraTranslation">About Us</string>
+    <string name="drawer.share" tools:ignore="ExtraTranslation">Share App</string>
+    <string name="drawer.profile" tools:ignore="ExtraTranslation">My Profile</string>
+    <string name="drawer.logout" tools:ignore="ExtraTranslation">Logout</string>
+
+    <!-- activity chat -->
+    <string name="chat.hint.message" tools:ignore="ExtraTranslation">Type a message …</string>
+    <string name="chat.textview.typing" tools:ignore="ExtraTranslation"> is typing…</string>
+    <string name="chat.toolbar.lastseen.online" tools:ignore="ExtraTranslation">Online</string>
+    <string name="chat.toolbar.lastseen.offline.today" tools:ignore="ExtraTranslation">Last seen today at time</string>
+    <string name="chat.toolbar.lastseen.offline" tools:ignore="ExtraTranslation">Last seen on date at time</string>
+    <string name="chat_textview_message">Pastry bear claw tootsie roll apple pie icing bonbon.</string>
+
+    <!-- activity profile -->
+    <string name="profile.toolbar.title" tools:ignore="ExtraTranslation">My Profile</string>
+    <string name="profile.button.delete" tools:ignore="ExtraTranslation">Delete Account</string>
+    <string name="profile.button.save" tools:ignore="ExtraTranslation">Save Changes</string>
+    <string name="profile.hint.name" tools:ignore="ExtraTranslation">Full Name</string>
+    <string name="profile.hint.status" tools:ignore="ExtraTranslation">Profile Status</string>
+    <string name="profile.hint.location" tools:ignore="ExtraTranslation">Your Location</string>
+    <string name="profile.hint.password" tools:ignore="ExtraTranslation">Change Password</string>
+    <string name="profile.dialog.name.title" tools:ignore="ExtraTranslation">Type your name</string>
+    <string name="profile.dialog.status.title" tools:ignore="ExtraTranslation">Type your Status</string>
+    <string name="profile.dialog.password.title" tools:ignore="ExtraTranslation">Type your new password</string>
+    <string name="profile.toast.password.positive" tools:ignore="ExtraTranslation">Password has been changed successfully</string>
+    <string name="profile.dialog.remove.content" tools:ignore="ExtraTranslation">Are you sure you want to delete this account permanently?</string>
+    <string name="profile.toast.save.positive" tools:ignore="ExtraTranslation"> All changes saved successfully</string>
+    <string name="profile.dialog.save.content" tools:ignore="ExtraTranslation">Do you want to save your profile Details? </string>
+    <string name="profile.dialog.profile.positive" tools:ignore="ExtraTranslation">Confirm</string>
+    <string name="profile.dialog.profile.negative" tools:ignore="ExtraTranslation">Cancel</string>
+    <string name="profile.dialog.input.close" tools:ignore="ExtraTranslation">Close</string>
+    <string name="profile.default.status.text" tools:ignore="ExtraTranslation">Hey there! I am using Awesome chat.</string>
+
+    <!-- activity About -->
+    <string name="about_app">ChatSome</string>
+    <string name="about.toolbar.title" tools:ignore="ExtraTranslation">About Us</string>
+    <string name="about.button.save" tools:ignore="ExtraTranslation">Here</string>
+    <string name="about.dialog.save.content" tools:ignore="ExtraTranslation" translatable="false"><a href="https://themeforest.net/user/0effortthemes">www.themeforest.net/user/0effortthemes</a></string>
+    <string name="about.dialog.about.positive" tools:ignore="ExtraTranslation">OK</string>
+    <string name="about.us.title" tools:ignore="ExtraTranslation">Our Details</string>
+    <string name="about.us.name" tools:ignore="ExtraTranslation">Build By : 0effortthemes</string>
+    <string name="about.us.email" tools:ignore="ExtraTranslation" translatable="false">support@0effortthemes.com</string>
+    <string name="about_details_title">0effortthemes,</string>
+    <string name="about_details_title1">We make every product</string>
+    <string name="about_details_title2">awesome!</string>
+    <string name="about_details_desc">We are driven by an insatiable hunger for excelling in all our design endeavours, which helps us to marry creativity with technology, to produce a powerful communication tool for offering to those who want to reach out to a wider audience. Our design experts create wonders when they conceptualise and lay down strategic yet aesthetic designs for various communication materials on the virtual medium. </string>
+    <string name="about_link">Check our products </string>
+
+    <!-- fragment users -->
+    <string name="users.toolbar.title" tools:ignore="ExtraTranslation">"Contact List"</string>
+    <string name="users.toolbar.search.hint" tools:ignore="ExtraTranslation">Search …</string>
+    <string name="user_img_desc">User profile image</string>
+    <string name="user_divider">User list divider</string>
+
+
+    <!-- fragment conversations -->
+    <string name="conversations.toolbar.title" tools:ignore="ExtraTranslation">Chats</string>
+    <string name="conversations.conversation.item.today" tools:ignore="ExtraTranslation">Today</string>
+    <string name="conversations_conversation_item_time">12:30</string>
+    <string name="emotion_btn_img_desc">Emotion button image</string>
+    <string name="send_button_desc">Send message</string>
+
+    <!--Image dialog menu -->
+    <string name="uploadImages">Set your image</string>
+
+    <!--Verify email Dialog-->
+    <string name="verify.email.dialog.name" tools:ignore="ExtraTranslation">Verify Email</string>
+    <string name="verify.email.dialog.content" tools:ignore="ExtraTranslation">Verify your email by clicking the link at your mail and try again to start chat.</string>
+    <string name="verify.email.dialog.agree" tools:ignore="ExtraTranslation">Sign Out</string>
+
+    <string name="location.setup.dialog.name" tools:ignore="ExtraTranslation">Setup Your Location</string>
+    <string name="location.setup.dialog.content" tools:ignore="ExtraTranslation">Set your profile location manually.</string>
+    <string name="location.setup.dialog.agree" tools:ignore="ExtraTranslation">Sign Out</string>
+
+    <string name="default_notification_channel_name" translatable="true">Chat</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="set_location">Your Location</string>
+
+    <string name="progress_dialog">Image Processing</string>
+    <string name="please_wait">Please wait …</string>
+
+</resources>

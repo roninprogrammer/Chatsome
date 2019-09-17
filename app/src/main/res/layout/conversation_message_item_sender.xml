@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conversationMessageLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="5dp"
+    android:orientation="vertical"
+    android:gravity="end">
+
+
+
+    <RelativeLayout
+        android:id="@+id/messageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_msg_to">
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="50dp"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:paddingRight="14dp"
+            android:paddingLeft="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorText"
+            android:text="@string/chat_textview_message"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:layout_marginEnd="14dp"
+        android:layout_gravity="bottom|end"
+        android:text="@string/conversations_conversation_item_time"
+        />
+
+
+</LinearLayout>

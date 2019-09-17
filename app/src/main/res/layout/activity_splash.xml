@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    style="@style/SplashTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dananaka.chatsome.app_intro.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/spalsh_image_desc"
+        app:srcCompat="@drawable/ic_app_logo"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/app_slug1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="@dimen/slug_padding"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/app_slug2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_slug1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="@dimen/slug2_padding"
+        android:text="@string/app_slug" />
+
+</RelativeLayout>

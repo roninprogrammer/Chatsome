@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAppBackground"
+            android:paddingBottom="10dp"
+            android:paddingEnd="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/field_gap_standard"
+                android:src="@drawable/ic_account_circle_white"
+                app:civ_border_color="@color/colorAppBackground"
+                app:civ_border_width="0dp" />
+
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/profileImageView"
+                android:layout_marginBottom="@dimen/field_gap_standard"
+                android:background="@color/colorText"
+                android:drawableEnd="@drawable/ic_pencil"
+                android:gravity="center_vertical"
+                android:hint="@string/profile.hint.name"
+                android:paddingEnd="16dp"
+                android:paddingStart="24dp" />
+
+
+            <LinearLayout
+                android:id="@+id/profileLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameTextView"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/emailTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="@dimen/field_gap_standard"
+                    android:background="@color/colorText"
+                    android:gravity="center_vertical"
+                    android:paddingStart="24dp"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/passwordTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="@dimen/field_gap_standard"
+                    android:background="@color/colorText"
+                    android:drawableEnd="@drawable/ic_pencil"
+                    android:gravity="center_vertical"
+                    android:hint="@string/profile.hint.password"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="24dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/statusTextView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/profileLinear"
+                android:layout_marginBottom="@dimen/field_gap_standard"
+                android:background="@color/colorText"
+                android:drawableEnd="@drawable/ic_pencil"
+                android:gravity="center_vertical"
+                android:hint="@string/profile.hint.status"
+                android:paddingEnd="16dp"
+                android:paddingStart="24dp" />
+
+            <!--<fragment-->
+                <!--android:id="@+id/locationTextView"-->
+                <!--android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_below="@id/statusEditText"-->
+                <!--android:background="@color/colorText"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:paddingEnd="16dp"-->
+                <!--android:paddingStart="24dp" />-->
+
+
+            <Button
+                android:id="@+id/saveProfile"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/statusTextView"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_save"
+                android:gravity="center_vertical|center"
+                android:paddingEnd="16dp"
+                android:paddingStart="24dp"
+                android:text="@string/profile.button.save"
+                android:textColor="@color/colorText" />
+
+            <Button
+            android:id="@+id/removeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorAccent"
+            android:text="@string/profile.button.delete"
+            android:textColor="@color/colorText"
+            android:visibility="gone" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/saveProfile"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/profile_banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</merge>
